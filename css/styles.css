@@ -192,11 +192,14 @@ header nav li:nth-child(3) a:after{
     justify-content: space-between;
     align-items: center;
 }
+.owl-nav{
+    position: absolute;
+}
 .owl-nav .owl-prev:before{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f053";
-    color: #FFFFFF;
+    color: #1F1F1F;
     font-size: 35px;
 
 }
@@ -204,6 +207,6 @@ header nav li:nth-child(3) a:after{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f054";
-    color: #FFFFFF;
+    color: #1F1F1F;
     font-size: 35px;
 }
