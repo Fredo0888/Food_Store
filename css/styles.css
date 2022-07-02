@@ -155,29 +155,24 @@ header nav li:nth-child(3) a:after{
 .food_carousel{
     padding: 100px 0;
 }
-.food_carousel  h1{
+.premium_bakery{
     font-family: 'Cormorant', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
     text-align: center;
-    color: #FF8126;
-    text-decoration: underline;
+    color: #1F1F1F;
+    text-decoration-line: none;
+    text-decoration-thickness: 1px;
     margin-bottom: 40px;
 }
-.food_carousel .color-text{
-    margin-left: 10px;
-    font-family: 'Cormorant', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
+.premium_bakery a{
     text-align: center;
-    text-decoration: none;
-    color: #1F1F1F;
-    text-decoration: none;
+    text-decoration-line: underline;
+    color: #FF8126;
 }
+
 .owl-carousel .item{
     margin: 0 15px;
     padding: 15px;
