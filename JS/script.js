@@ -1,19 +1,22 @@
 $('.close').click(function () {
     $('.notification').slideUp(500);
 })
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:0,
-    navigation:true,
-    navigationText: [ '', ' ' ],
+$(document).ready(function(){
 
-    responsive:{
-        0:{
-            items:1
-        },
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        navText: [ '', ' ' ],
 
-        1000:{
-            items:5
+        responsive:{
+            0:{
+                items:1
+            },
+
+            1000:{
+                items:5
+            }
         }
-    }
+    });
 });

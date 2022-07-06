@@ -1,0 +1,38 @@
+$main_font:'Poppins', sans-serif;
+$color_orange: #FF8126;
+$second_font:'Cormorant', sans-serif;
+$color_black: #1F1F1F;
+
+.food_carousel{
+  padding: 100px 0;
+
+  .premium_bakery{
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: $color_black;
+    text-decoration-line: none;
+    margin-bottom: 40px;
+    a{
+      text-align: center;
+      text-decoration-line: underline;
+      color: $color_orange;
+    }
+  }
+  .owl-carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .item{
+      margin: 0 15px;
+      padding: 15px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+    }
+
+  }
+}

@@ -1,0 +1,69 @@
+$main_font:'Poppins', sans-serif;
+$color_orange: #FF8126;
+
+
+
+header{
+  padding: 20px 0;
+  .container{
+    @extend .container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav{
+    li{
+      margin: 0 20px;
+      &:first-of-type{
+        a{
+          &:after{
+            content: "";
+            background-image: url("../images/arrow.svg");
+            width: 10px;
+            height: 4px;
+            display: inline-block;
+            margin-left: 7px;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+      &:hover {
+        a {
+          color: $color_orange;
+        }
+      }
+      a{
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #1F1F1F;
+        transition: 0.3s;
+        border: none;
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+  ul{
+    display: flex;
+
+    li{
+      margin-left: 10px;
+      a{
+        border: 1px solid #BFBFBF;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: inline-flex;
+        align-items: center;
+        img{
+          margin: auto;
+
+        }
+      }
+    }
+  }
+}

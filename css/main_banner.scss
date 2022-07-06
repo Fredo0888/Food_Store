@@ -1,0 +1,29 @@
+$main_font:'Poppins', sans-serif;
+$color_orange: #FF8126;
+$second_font:'Cormorant', sans-serif;
+$color_black: #1F1F1F;
+
+.main_banner{
+  background-image: url("../images/main_banner.jpg");
+  background-size: cover;
+  padding-top: 125px;
+  padding-bottom: 195px;
+  h1{
+    font-family: $second_font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: $color_black;
+    margin-bottom: 5px;
+  }
+  h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    color: $color_black;
+    margin-bottom: 40px;
+  }
+}

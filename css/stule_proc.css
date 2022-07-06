@@ -1,0 +1,256 @@
+@import "https://fonts.googleapis.com";
+@import "https://fonts.gstatic.com";
+@import "https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap";
+@import url(owl.carousel.css);
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.css);
+@import url(owl.theme.default.min.css);
+@import url(normalize.css);
+@import url(styles_preproc.css);
+@import url(media_quaries.css);
+header {
+  padding: 20px 0; }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  header nav li {
+    margin: 0 20px; }
+    header nav li:first-of-type a:after {
+      content: "";
+      background-image: url("../images/arrow.svg");
+      width: 10px;
+      height: 4px;
+      display: inline-block;
+      margin-left: 7px;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    header nav li:hover a {
+      color: #FF8126; }
+    header nav li a {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      color: #1F1F1F;
+      transition: 0.3s;
+      border: none;
+      width: auto;
+      height: auto; }
+  header ul {
+    display: flex; }
+    header ul li {
+      margin-left: 10px; }
+      header ul li a {
+        border: 1px solid #BFBFBF;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: inline-flex;
+        align-items: center; }
+        header ul li a img {
+          margin: auto; }
+
+.main_banner {
+  background-image: url("../images/main_banner.jpg");
+  background-size: cover;
+  padding-top: 125px;
+  padding-bottom: 195px; }
+  .main_banner h1 {
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #1F1F1F;
+    margin-bottom: 5px; }
+  .main_banner h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    color: #1F1F1F;
+    margin-bottom: 40px; }
+
+.latest_offers {
+  margin-top: 130px; }
+  .latest_offers .latest_offer {
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-bottom: 40px; }
+    .latest_offers .latest_offer .offers {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .latest_offers .latest_offer .offers .quick_shop {
+        max-width: 270px;
+        margin: inherit;
+        background: #F7F5F0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        border-radius: 20px; }
+        .latest_offers .latest_offer .offers .quick_shop h4 {
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 27px;
+          text-align: center;
+          color: #1F1F1F;
+          margin-top: 20px;
+          margin-bottom: 5px; }
+        .latest_offers .latest_offer .offers .quick_shop p {
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 36px;
+          color: #FF8126;
+          text-align: center;
+          margin-bottom: 20px; }
+          .latest_offers .latest_offer .offers .quick_shop p span {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-decoration-line: line-through;
+            color: #656565;
+            margin-left: 5px; }
+        .latest_offers .latest_offer .offers .quick_shop a {
+          padding: 6px 64px 7px 64px;
+          margin-left: 20px;
+          margin-bottom: 30px;
+          text-align: center; }
+
+.Why_Choose {
+  padding-top: 130px; }
+  .Why_Choose h1 {
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-bottom: 40px; }
+    .Why_Choose h1 span {
+      color: #FF8126;
+      margin-left: 10px; }
+  .Why_Choose .why_choose_items {
+    display: flex; }
+    .Why_Choose .why_choose_items .why_item {
+      margin-right: 30px; }
+      .Why_Choose .why_choose_items .why_item img {
+        margin-bottom: 20px; }
+      .Why_Choose .why_choose_items .why_item h3 {
+        margin-bottom: 10px;
+        font-family: 'Cormorant', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #1F1F1F; }
+      .Why_Choose .why_choose_items .why_item p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1F1F1F; }
+
+.who_make {
+  padding-top: 80px; }
+  .who_make .your_food {
+    display: flex; }
+    .who_make .your_food .your_food_items h1 {
+      font-family: 'Cormorant', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FF8126;
+      margin-bottom: 20px; }
+      .who_make .your_food .your_food_items h1 span {
+        color: #1F1F1F;
+        margin-left: 10px; }
+    .who_make .your_food .your_food_items h3 {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1F1F1F;
+      margin-bottom: 40px; }
+    .who_make .your_food .your_food_items p {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 20px;
+      color: #1F1F1F; }
+      .who_make .your_food .your_food_items p:before {
+        content: "";
+        background-image: url("../images/ticker.svg");
+        width: 10px;
+        height: 6px;
+        text-align: center;
+        padding: 9px 7px;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #FF8126;
+        border-radius: 50%;
+        margin-right: 15px; }
+
+.food_carousel {
+  padding: 100px 0; }
+  .food_carousel .premium_bakery {
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #1F1F1F;
+    text-decoration-line: none;
+    margin-bottom: 40px; }
+    .food_carousel .premium_bakery a {
+      text-align: center;
+      text-decoration-line: underline;
+      color: #FF8126; }
+  .food_carousel .owl-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .food_carousel .owl-carousel .item {
+      margin: 0 15px;
+      padding: 15px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); }
+
+.btn {
+  background: #FF8126;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 9px 36px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF; }
+  @media screen and (max-width: 345px) {
+    .btn {
+      padding: 12px 20px; } }
+  @media screen and (max-width: 854px) {
+    .btn {
+      color: blue;
+      padding: 15px 16px; } }

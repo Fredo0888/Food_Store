@@ -1,0 +1,60 @@
+$main_font:'Poppins', sans-serif;
+$color_orange: #FF8126;
+$second_font:'Cormorant', sans-serif;
+$color_black: #1F1F1F;
+
+.who_make{
+  padding-top: 80px;
+  .your_food{
+    display: flex;
+    .your_food_items{
+      h1{
+        font-family: $second_font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: $color_orange;
+        margin-bottom: 20px;
+        span{
+          color: $color_black;
+          margin-left: 10px;
+        }
+      }
+      h3{
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color_black;
+        margin-bottom: 40px;
+
+      }
+      p{
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        color: $color_black;
+        &:before{
+          content: "";
+          background-image: url("../images/ticker.svg");
+          width: 10px;
+          height: 6px;
+          text-align: center;
+          padding: 9px 7px;
+          display: inline-block;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-color: #FF8126;
+          border-radius: 50%;
+          margin-right: 15px;
+
+        }
+      }
+    }
+  }
+}

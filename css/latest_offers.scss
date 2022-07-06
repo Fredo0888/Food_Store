@@ -1,0 +1,72 @@
+$main_font:'Poppins', sans-serif;
+$color_orange: #FF8126;
+$second_font:'Cormorant', sans-serif;
+$color_black: #1F1F1F;
+$color_grey: #656565;
+
+.latest_offers{
+  margin-top: 130px;
+    .latest_offer{
+      font-family: $second_font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+      color: $color_black;
+      margin-bottom: 40px;
+      .offers{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .quick_shop{
+          max-width: 270px;
+          margin: inherit;
+          background: #F7F5F0;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+          border-radius: 20px;
+            img{
+
+            }
+          h4{
+            font-family: $main_font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            color: $color_black;
+            margin-top: 20px;
+            margin-bottom: 5px;
+          }
+          p{
+            font-family: $main_font;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            color: $color_orange;
+            text-align: center;
+            margin-bottom: 20px;
+            span{
+              font-family: $main_font;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 27px;
+              text-decoration-line: line-through;
+              color: $color_grey;
+              margin-left: 5px;
+            }
+          }
+          a{
+            padding: 6px 64px 7px 64px;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+          }
+        }
+
+      }
+    }
+}

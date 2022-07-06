@@ -1,0 +1,46 @@
+@import "https://fonts.googleapis.com";
+@import "https://fonts.gstatic.com";
+@import "https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap";
+@import "owl.carousel.css";
+@import "owl.carousel.min.css";
+@import "owl.theme.default.css";
+@import "owl.theme.default.min.css";
+@import "normalize.css";
+@import "styles_preproc.css";
+@import "media_quaries.css";
+@import "header";
+@import "main_banner";
+@import "latest_offers";
+@import "Why_Choose";
+@import "who_make";
+@import "food_carousel";
+$main_font:'Poppins', sans-serif;
+$color_orange: #FF8126;
+$second_font:'Cormorant', sans-serif;
+$color_black: #1F1F1F;
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.btn{
+  background: $color_orange;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 9px 36px;
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  @include max-screen(345px){
+    padding: 12px 20px;
+  }
+  @include max-screen(854px){
+    color: blue;
+    padding: 15px 16px;
+  }
+}
